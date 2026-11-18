@@ -18,7 +18,7 @@
 
 1.*Clonar el repositorio y entrar a la carpeta:*
    bash
-   git clone <URL_DE_TU_REPOSITORIO>
+   git clone 
    cd sonora
 
 2.*Instalar dependencias:*
