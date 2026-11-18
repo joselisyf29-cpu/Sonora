@@ -1,0 +1,20 @@
+.snr-btn{font:700 14px/20px var(--font-sans);padding:var(--space-3) var(--space-6);border-radius:var(--radius-pill);border:2px solid transparent;cursor:pointer;transition:background 120ms ease,border-color 120ms ease;background:transparent;color:var(--ink)}
+.snr-btn:focus-visible,.snr-chip:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.snr-btn--primary{background:var(--accent);color:var(--on-accent)}
+.snr-btn--primary:hover{background:var(--accent-hover)}
+.snr-btn--secondary{border-color:var(--line-strong);color:var(--ink)}
+.snr-btn--secondary:hover{background:var(--surface-high)}
+.snr-btn--ghost{color:var(--ink-muted)}
+.snr-btn--ghost:hover{background:var(--surface-high);color:var(--ink)}
+.snr-btn[disabled]{opacity:.5;cursor:not-allowed}
+.snr-chip{font:700 12px/16px var(--font-sans);letter-spacing:.06em;text-transform:uppercase;padding:var(--space-2) var(--space-4);border-radius:var(--radius-pill);border:2px solid transparent;background:var(--surface-high);color:var(--ink);cursor:pointer}
+.snr-chip:hover{border-color:var(--line-strong)}
+.snr-chip[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+.snr-card{background:var(--surface-raised);border-radius:var(--radius-md);padding:var(--space-4);width:200px;transition:background 120ms ease,box-shadow 120ms ease}
+.snr-card:hover{background:var(--surface-high);box-shadow:var(--shadow-raise)}
+.snr-card__art{aspect-ratio:1;border-radius:var(--radius-md);background:var(--surface-high);margin-bottom:var(--space-4);display:flex;align-items:flex-end;gap:var(--space-1);padding:var(--space-4)}
+.snr-card:hover .snr-card__art{background:var(--surface-base)}
+.snr-card__art i{flex:1;background:var(--accent);border-radius:var(--radius-pill)}
+.snr-card__title{font:700 20px/26px var(--font-sans);color:var(--ink);margin:0}
+.snr-card__meta{font:500 14px/20px var(--font-sans);color:var(--ink-muted);margin:var(--space-1) 0 0}
+.snr-card__time{font:400 12px/16px var(--font-mono);color:var(--ink-muted);margin:var(--space-2) 0 0}
